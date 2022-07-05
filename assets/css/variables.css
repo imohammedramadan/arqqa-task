@@ -1,0 +1,9 @@
+/* ==========color variables========== */
+:root {
+  --font-black: rgba(0, 0, 0, 1);
+  --font-white: rgba(255, 255, 255, 1);
+  --font-grey: rgba(187, 187, 187, 1);
+  --purple-bg: rgba(145, 94, 223, 1);
+  --grey-bg: rgba(246, 246, 246, 1);
+}
+/* ==========color variables========== */

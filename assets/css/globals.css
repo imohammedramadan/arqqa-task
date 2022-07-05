@@ -1,0 +1,74 @@
+/* ==========css reset========== */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  color: var(--font-black);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: var(--font-black);
+}
+/* ==========css reset========== */
+
+/* ==========css globals========== */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.capitalize {
+  text-transform: uppercase;
+}
+.btn {
+  border: none;
+  background: none;
+  font-weight: 600;
+  color: var(--font-black);
+  padding: 10px 34px;
+  cursor: pointer;
+}
+.btn-round {
+  border-radius: 100px;
+}
+.btn-purple {
+  background-color: var(--purple-bg);
+  color: var(--font-white);
+}
+/* ==========css globals========== */

@@ -1,0 +1,141 @@
+/* ==========body========== */
+body {
+  background-image: url("../imgs/header-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+/* ==========body========== */
+
+/* ==========navbar========== */
+.navbar {
+  display: flex;
+  place-content: space-between;
+  place-items: center;
+  padding: 3rem 10vw;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.nav-list {
+  display: flex;
+  column-gap: 2rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.btn-signup {
+  background-color: rgba(255, 255, 255, 1);
+}
+.menu-btn {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+.active {
+  display: block;
+}
+/* ==========navbar========== */
+
+/* ==========main========== */
+main {
+  display: grid;
+  padding-bottom: 20px;
+  min-height: calc(100vh - 127px);
+}
+/* ==========main========== */
+
+/* ==========content section========== */
+.content {
+  display: flex;
+  place-content: center;
+  gap: 4rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+/* ==========content========== */
+
+/* ==========form========== */
+.content-form {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
+  gap: 20px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.form-heading h2 {
+  font-weight: 600;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.form-inputs input {
+  border: none;
+  background-color: var(--grey-bg);
+  height: 50px;
+  border-radius: 5px;
+  padding: 0px 20px;
+}
+.form-inputs button {
+  border-radius: 5px;
+  padding: 18px 0px;
+  font-size: 0.8125rem;
+}
+.signup-form small {
+  font-size: 0.6875rem;
+  color: var(--font-grey);
+}
+/* ==========form========== */
+
+/* ==========info========== */
+.content-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 610px;
+  margin-top: 26px;
+}
+.info-heading h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.info-paragraph {
+  margin-top: 20px;
+  max-width: 524px;
+}
+.info-paragraph p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.info-btns {
+  display: flex;
+  place-items: center;
+  column-gap: 42px;
+  margin-top: 50px;
+}
+.btn-play {
+  padding-left: 2px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-image: url("../imgs/play-icon.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.btn-prices {
+  padding: 10px 50px;
+}
+/* ==========info========== */

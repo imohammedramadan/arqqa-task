@@ -7,19 +7,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- stylesheet -->
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./assets/css/variables.css" />
+  <link rel="stylesheet" href="./assets/css/globals.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/queries.css" />
 
-  <!-- Roboto font import -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet" />
+  <!-- Poppins font import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <title>Title</title>
+  <title>Beborn</title>
 </head>
 
 <body>
-  <script src="./app.js"></script>
+
+  <header>
+    <nav class="navbar">
+      <div>
+        <h1 class="logo">Beborn</h1>
+      </div>
+
+      <div class="nav-menu">
+        <div class="menu-btn">
+          <a href="#">
+            <img src="./assets/imgs/menu.png" alt="menu" width="30px" height="30px">
+          </a>
+        </div>
+        <div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                Features
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                Pricing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                Login
+              </a>
+            </li>
+            <li class="nav-item">
+              <a role="button" href="#" class="nav-link btn-signup btn btn-round">
+                Sign up
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="content">
+      <div class="content-form">
+        <div class="form-heading">
+          <h2>Create an account</h2>
+        </div>
+        <div>
+          <form class="signup-form">
+            <div class="form-inputs">
+              <label class="visually-hidden" for="fullname">Full name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Full name">
+            </div>
+            <div class="form-inputs">
+              <label class="visually-hidden" for="username">User name</label>
+              <input type="text" id="username" name="username" placeholder="User name" minlength="6">
+            </div>
+            <div class="form-inputs">
+              <label class="visually-hidden" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-inputs">
+              <label class="visually-hidden" for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Password" minlength="6">
+            </div>
+            <div class="form-inputs">
+              <button type="submit" class="btn btn-purple capitalize">try it for free</button>
+            </div>
+            <div>
+              <small>By registering you agree to the envato Terms of Use</small>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="content-info">
+        <div class="info-heading">
+          <h2>Better Marketing Results with Clean Design</h2>
+        </div>
+        <div class="info-paragraph">
+          <p>We have been working very hard to create the new version of our course. It comes with a lot of new
+            features.
+            Check it out now!</p>
+        </div>
+        <div class="info-btns">
+          <div>
+            <button type="button" class="btn btn-play">Play video</button>
+          </div>
+          <div>
+            <a role="button" href="#" class="btn-prices btn btn-round btn-purple capitalize">see our price</a>
+          </div>
+        </div>
+      </div>
+      <script src="./main.js"></script>
+    </section>
+  </main>
+
 </body>
 
 </html>
